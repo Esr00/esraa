@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&family=Saira+Condensed:wght@300;400;500;600;700;800&display=swap");
+
+
+.wraper{background-color: #f7ecde; z-index: 100;}
+
+h1{font-family: "Pacifico", cursive;
+font-style: normal;}
+
+h1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    left: 0;
+    bottom: 15px;
+    background-color: #fec260;
+transition: all 1s;
+    z-index:-1 ;}
+    
+h1:hover::before {
+height: 30%;} 
+
+h2{background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;}
+
+.bookmark-body{border-width:2px 0px;
+border-style:dotted;
+border-color:  black;}
+
+#submitBtn{background-color:#d1512d ;
+}
+
+#submitBtn:hover{ background-color:#bb4120;}
